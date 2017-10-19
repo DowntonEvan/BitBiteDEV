@@ -41,6 +41,17 @@ body{
     color: white;
 }
 
+.contact{
+    clear: both;
+    font-size: 18px;
+    color: #0088FF;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: -2%;
+    background-color: #FFFFFF;
+}
+
 .MMtext{
     font-size: 3vw;
     font-weight: 500;
