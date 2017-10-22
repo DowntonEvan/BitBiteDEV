@@ -1,10 +1,43 @@
-h1{
-    text-align:center;
-    font-family: 'Work Sans', 'sans-serif';
-    font-weight: 400;
+.jumbotron {
+    background-color: #fff;
+}
+
+.section-blue{
     background-color: #25a8e0;
+}
+p{
+    color: #fff;
+}
+
+h2{
+    text-align:center;
+    font-style: Stencil-std;
+    background-color: #fff;
     border-style: hidden;
-    padding: 1.7%;
-    font-size: 230%;
-    border-color: #25a8e0;
+    padding: 7.8%;
+    font-size: 150%;
+    border-color: #fff;
+}
+h3{
+    text-align:center;
+    font-style: Stencil-std;
+    background-color: #fff;
+    border-style: hidden;
+    padding: 7.8%;
+    font-size: 150%;
+    border-color: #fff;
+}
+h4{
+    text-align:center;
+    font-style: Stencil-std;
+    background-color: #fff;
+    border-style: hidden;
+    padding: 7.8%;
+    font-size: 150%;
+    border-color: #fff;
+}
+
+
+a {
+    color: #fff !important;
 }

@@ -2,21 +2,21 @@ body{
     font-family: 'Work Sans', 'sans-serif';
     font-weight: 400;
     font-size: 24px;
-    background: rgb(0, 136, 255);
+    background: #0088FF;
 }
 
 .MainTitle{
     font-weight: 300;
     font-size: 56px;
-    color: white;
+    color: #f3f8f4;
     text-align: center;
     margin-top: 3%;
+    text-align: center;
 }
 .CryptoInfo{
     font-size: 30px;
     color: white;
     position: fixed;
-    text-align: center;
     width: 100%;
     bottom: 7%;
 }
@@ -35,25 +35,43 @@ body{
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    text-align: center;
 }
 .CryptoButton:hover{
     background-color: #0088FF;
     color: white;
 }
 
-.contact{
-    clear: both;
-    font-size: 18px;
-    color: #0088FF;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    bottom: -2%;
-    background-color: #FFFFFF;
+.bitcoinimg{
+    max-width: 22vh;
+    float:left;
+}
+.pricetxtbit{
+    font-size: 8vmin;
+    margin-top: 6vh;
+    margin-left: 10vw;
 }
 
-.MMtext{
-    font-size: 3vw;
-    font-weight: 500;
-    color: white;
+.img-responsive {
+    margin: 0 auto !important;
+}
+.ethimg{
+    clear: both;
+    float: right;
+    max-width: 22vh;
+}
+.pricetxteth{
+    float: right;
+    font-size: 8vmin;
+    margin-top: 6vh;
+}
+.ripimg{
+    clear: both;
+    float: left;
+    max-width: 22vh;
+}
+.pricetxtrip{
+    font-size: 8vmin;
+    margin-top: 6vh;
+    float: left;
 }
