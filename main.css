@@ -50,6 +50,7 @@ body{
     font-size: 8vmin;
     margin-top: 6vh;
     margin-left: 10vw;
+    color: white;
 }
 
 .img-responsive {
@@ -63,7 +64,8 @@ body{
 .pricetxteth{
     float: right;
     font-size: 8vmin;
-    margin-top: 6vh;
+    margin-top: 7.5vh;
+    color: white;
 }
 .ripimg{
     clear: both;
@@ -74,4 +76,9 @@ body{
     font-size: 8vmin;
     margin-top: 6vh;
     float: left;
+    color: white;
+}
+
+.bullets{
+    font-size: 4vmin;
 }
