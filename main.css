@@ -48,7 +48,7 @@ body{
 }
 .pricetxtbit{
     font-size: 8vmin;
-    margin-top: 6vh;
+    margin-top: 4vh;
     margin-left: 10vw;
     color: white;
 }
@@ -64,7 +64,7 @@ body{
 .pricetxteth{
     float: right;
     font-size: 8vmin;
-    margin-top: 7.5vh;
+    margin-top: 4vh;
     color: white;
 }
 .ripimg{
@@ -74,7 +74,7 @@ body{
 }
 .pricetxtrip{
     font-size: 8vmin;
-    margin-top: 6vh;
+    margin-top: 4vh;
     float: left;
     color: white;
 }
