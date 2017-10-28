@@ -18,7 +18,7 @@ body{
     color: white;
     position: fixed;
     width: 100%;
-    bottom: 7%;
+    bottom: 5%;
 }
 
 .CryptoButton {
@@ -26,12 +26,12 @@ body{
     border: 2px solid #FFFFFF;
     border-radius: 0.2em;
     color: #0088FF;
-    padding: 13px 30px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    margin: 4px 2px;
+    margin: 2px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -47,7 +47,7 @@ body{
     float:left;
 }
 .pricetxtbit{
-    font-size: 8vmin;
+    font-size: 5vmin;
     margin-top: 4vh;
     margin-left: 10vw;
     color: white;
@@ -62,10 +62,10 @@ body{
     max-width: 22vh;
 }
 .pricetxteth{
-    float: right;
-    font-size: 8vmin;
-    margin-top: 4vh;
+    font-size: 5vmin;
+    margin-bottom: 4vh;
     color: white;
+    width: 75%;
 }
 .ripimg{
     clear: both;
@@ -73,9 +73,8 @@ body{
     max-width: 22vh;
 }
 .pricetxtrip{
-    font-size: 8vmin;
-    margin-top: 4vh;
-    float: left;
+    font-size: 5vmin;
+    margin-bottom: 10vh;
     color: white;
 }
 
