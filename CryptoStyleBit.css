@@ -2,13 +2,13 @@
     float: right;
     clear: both;
     width: 20vw;
-    margin-right: 10vw;
+    margin-right: 16vw;
 }
 .title{
     font-family: 'Work Sans', 'sans-serif';
     font-weight: 300;
     font-size: 12vw;
-    margin-left: 10vw;
+    margin-left: 16vw;
 }
 .DataTitle{
     font-family: 'Work Sans', 'sans-serif';
@@ -36,6 +36,6 @@ ul{
     font-family: 'Work Sans', 'sans-serif';
     font-weight: 400;
     font-size: 5vw;
-    list-style-image: url(EthereumSmall.png);
+    list-style-image: url(BitcoinSmall.png);
     margin: 0 5vw;
 }
