@@ -2,7 +2,6 @@
 <htmL>
 
 <head>
-
     <link href="CryptoStyleBit.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -12,46 +11,44 @@
 </head>
 
 <body style="background: #f4f4f4; color: #db8e00;">
-<img class="bitico" src = "BitCoin.png">
+  <div id="app">
+    <img class="bitico" src = "BitCoin.png">
+    <div class="title">Bitcoin</div>
+    <div v-cloak v-for="coin in coins">
+      <span v-if="coin.name == 'Bitcoin'">
+        <div class="DataTitle"> {{ coin.price_usd | currency }}</div>
+      </span>
+    </div>
+  </div>
 
-<div class = "title">
-    Bitcoin
-</div>
-
-<div class="DataTitle" style="clear: both;">
-    Real Time Data
-</div>
-<img class = "img-responsive Data" src = "http://www.msdeer.com/photos/albums/userpics/10002/deerbyphase.png">
-
-<div class="DataTitle">
-    Summary
-</div>
-<p class="info">Bitcoin is the first decentralized digital currency also referred to as virtual or crypto-currency, it’s used to purchase a variety of goods and services. The decentralized creation uses the ideas created in 2009 that were recorded on the white paper by Satoshi Nakamoto whose true identity is still unknown. Bitcoin with its payment network, supplies individuals with the opportunity to have direct peer to peer transactions, powered by its users with no central authority.</p>
-<div class="DataTitle">
-    Pros And Cons
-</div>
-<p class="info">Pros</p>
-<ul>
-    <li>The currency of bitcoin is transferable from one person to another through the source of internet without banks being involved</li>
-    <li>The transaction fees are much lower as of now since bitcoin&rsquo;s network is faster compared to previous years, currency can be used throughout the world</li>
-    <li>Completely open source in which any individual has the capability to review the code, it also uses blockchain technology</li>
-</ul>
-<p class="info">Cons</p>
-<ul>
-    <li>As Bitcoin is still growing in popularity it&rsquo;s not yet accepted by all online merchants, making it an inefficient currency to only depend on </li>
-    <li>If a virus corrupts the data or the hard drive crashes, data will then be lost in the wallet file, Bitcoin will just become lost</li>
-    <li>The idea of Bitcoin&rsquo;s value always fluctuating because of its demand, you never know when its value can just fall leading to your money being worthless</li>
-</ul>
+  <p class="info">Bitcoin is the first decentralized digital currency also referred to as virtual or crypto-currency, it’s used to purchase a variety of goods and services. The decentralized creation uses the ideas created in 2009 that were recorded on the white paper by Satoshi Nakamoto whose true identity is still unknown. Bitcoin with its payment network, supplies individuals with the opportunity to have direct peer to peer transactions, powered by its users with no central authority.</p>
+  <div class="DataTitle">Pros And Cons</div>
+  <p class="info">Pros</p>
+  <ul>
+      <li>The currency of bitcoin is transferable from one person to another through the source of internet without banks being involved</li>
+      <li>The transaction fees are much lower as of now since bitcoin&rsquo;s network is faster compared to previous years, currency can be used throughout the world</li>
+      <li>Completely open source in which any individual has the capability to review the code, it also uses blockchain technology</li>
+  </ul>
+  <p class="info">Cons</p>
+  <ul>
+      <li>As Bitcoin is still growing in popularity it&rsquo;s not yet accepted by all online merchants, making it an inefficient currency to only depend on </li>
+      <li>If a virus corrupts the data or the hard drive crashes, data will then be lost in the wallet file, Bitcoin will just become lost</li>
+      <li>The idea of Bitcoin&rsquo;s value always fluctuating because of its demand, you never know when its value can just fall leading to your money being worthless</li>
+  </ul>
 
 
-<div class="DataTitle">
-    Analysis
-</div>
-<p class="info">With any way of getting to the internet, bitcoins which are held in a digital wallet, can be used to invest, exchange, and purchase goods as a source of currency. No personal information is needed when completing transactions, authorization is with a digital signature. The need for a third party to manage the payments is eliminated due to how Bitcoin is ran. Users part of Bitcoin authorize and prove the validity of transaction, they&rsquo;re known as miners. Transactions are verified within minutes by a network of miners who create blocks to insert the transactions. Once the miner solves the puzzle, a proof of work is required, to be then validated before recording it into the public ledger. Lastly other miners will review the transaction and verify it when checked over correctly. The process is then restarted in the same pattern.</p>
+  <div class="DataTitle">
+      Analysis
+  </div>
+  <p class="info">With any way of getting to the internet, bitcoins which are held in a digital wallet, can be used to invest, exchange, and purchase goods as a source of currency. No personal information is needed when completing transactions, authorization is with a digital signature. The need for a third party to manage the payments is eliminated due to how Bitcoin is ran. Users part of Bitcoin authorize and prove the validity of transaction, they&rsquo;re known as miners. Transactions are verified within minutes by a network of miners who create blocks to insert the transactions. Once the miner solves the puzzle, a proof of work is required, to be then validated before recording it into the public ledger. Lastly other miners will review the transaction and verify it when checked over correctly. The process is then restarted in the same pattern.</p>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/vue2-filters.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
