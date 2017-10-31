@@ -51,3 +51,7 @@ span{
 .dataimg{
   width: 80vw;
 }
+
+ul.a{
+  list-style-type: circle;
+}
