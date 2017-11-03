@@ -1,61 +1,62 @@
+<!DOCTYPE html>
 <htmL>
 
-  <head> 
-    <link rel="stylesheet" type="text/css" href="ripples.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
-    <title>
-    Ripple
-    </title>
-  </head>
+<head>
 
-  <body>
+  <link rel="stylesheet" type="text/css" href="ripples.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title>
+    BitBite
+  </title>
+</head>
 
-    <div id = "Name">
-      <img id = "ripple" src = "ripplel.png"></img>
-      <h1>Ripple</h1>
+<body style="background:#246de2; color: gainsboro;">
+<div id="app">
+  <img class="ripico" src ="Ripple.png">
+  <div class = "title">Ripple</div>
+  <div v-cloak v-for="coin in coins">
+        <span v-if="coin.name == 'Ripple'">
+            <div class="DataTitle"><br> {{ coin.price_usd | currency }}</div>
+  </span>
+  </div>
+</div>
+<div class="DataTitle">
+  Summary
+</div>
+<p class="info">Ripple is the 3rd largest cryptocurrency in the world. It is a real-time gross settlement system, currency exchange network by Ripple. Also called the Ripple Transaction Protocol, it is built upon a distributed open source Internet protocol, consensus ledger and native cryptocurrency called XRP.</p>
+<div class="DataTitle">
+  Pros And Cons
+</div>
+<p class="info">Pros</p>
+<ul>
+  <li>A medium for converting any currency instantly into any other one, without relying on a central exchange.</li>
+  <li>Processes transactions quickly (~3.5 seconds)</li>
+  <li>Total Supply of 100 Billion.</li>
+</ul>
+<p class="info">Cons</p>
+<ul>
+  <li>There are no retailers who directly accept XRP</li>
+  <li>Centralized (available for use by banks)</li>
+  <li>You can&rsquo;t improve the service of the blockchain that controls Ethereum.</li>
+</ul>
 
-      <br><img id="rip" src = "ripplel.png"></img><p>What is ripple?</p></br>
 
-      <p>Ripple is the 3rd largest cryptocurrency in the world. It is a real-time
-        gross settlement system, currency exchange network by Ripple. Also called
-        the Ripple Transaction Protocol, it is built upon a distributed open source
-        Internet protocol, consensus ledger and native cryptocurrency called XRP.
-      </p></br>
+<div class="DataTitle">
+  Analysis
+</div>
+<p class="info">You can purchase Ripple on multiple cryptocurrency exchange websites. Many banks use Ripple to exchange currencies, including JPMorgan, Santander, and BBVA. Ripple is projected to skyrocket within the next few years. Ripple is the only one that offers services to banks all around the world. Banks realize the increasing popularity of cryptocurrencies and huge companies have joined with Ripple.</p>
 
-      <img id = "rip" src = "ripplel.png"> </img><p>What are the Pros and Cons of Ripple?</p>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script src="https://github.com/nagix/chartjs-plugin-streaming/releases/download/v1.1.0/chartjs-plugin-streaming.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.1.0/pusher.js"></script>
+<script src="js/vue2-filters.min.js"></script>
+<script src="js/app.js"></script>
 
-      <p>Pros </p>
-      <ul class="a">
-        <li><p>A medium for converting any currency instantly into any other one,
-          without relying on a central exchange.</p></li>
-        <li><p>Processes transactions quickly (3.5 seconds)</p></li>
-        <li><p>Total Supply of 100 Billion. (only 38% is circulating)</p></li>
-      </ul>
-
-     <p>Cons</p>
-      <ul class="a">
-        <li><p>There are no retailers who directly accept XRP</p></li>
-        <li><p>Centralized (available for use by banks)</p></li>
-        <li><p>Lack of acceptance</p></li>
-      </ul>
-
-
-      <img id = "rip" src = "ripplel.png"> </img><p>Important information, such as how it works and any laws or security violations that apply to it </p>
-      <ul class="a">
-        <li><p>
-          A Ripple coin (XRP) cost $0.20. You can purchase them on multiple
-          cryptocurrency exchange websites. Many banks use Ripple to exchange
-          currencies, including JPMorgan, Santander, and BBVA. Ripple is projected to
-          skyrocket within the next few years. Ripple is the only one that offers
-          services to banks all around the world. Banks realize the increasing
-          popularity of cryptocurrencies and huge companies have joined with Ripple.
-        </p></li>
-      </ul>
-    </div>
-
-    <div id = "Data">
-      <h1> Data Analytics </h1>
-      <img class="dataimg" src = "http://www.msdeer.com/photos/albums/userpics/10002/deerbyphase.png"><img>
-    </div>
-  </body>
 </html>

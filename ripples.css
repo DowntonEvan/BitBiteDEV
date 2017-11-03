@@ -1,57 +1,42 @@
-body{
-  font: Roboto;
-  background-color: #0088ff;
-  font-family: 'Work Sans', sans-serif;
-
+.ripico{
+  float: right;
+  clear: both;
+  width: 20vw;
+  margin-right: 18vw;
 }
-
+.title{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 12vw;
+  padding-left: 18vw;
+}
+.DataTitle{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 9vw;
+  text-align: center;
+}
+.Data{
+  max-width: 80vw !important;
+  margin-left: 10vw;
+  padding-right: 10vw;
+}
 
 div{
-  width: 100vw;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 100%;
-
+  width: 100%;
 }
-
-#ripple{
-   float: left;
-   height: 90px;
-   width: 90px;
+.info{
+  text-align: center;
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 5vw;
+  margin: 0 10vw;
+  padding-bottom: 6vh;
 }
-
-#rip{
-  float:left;
-  height: 50px;
-  width: 50px;
-
-}
-
-#Data img{
-}
-
-p{
-  font-size: 200%;
-  color: white;
-  margin-left: 1em;
-}
-
-
-
-h1{
-  font-size: 350%;
-  color: #f3f8f5;
-  position: relative;
-  padding-left: 10px;
-
-}
-
-span{
-  display:block;
-}
-.dataimg{
-  width: 80vw;
-}
-
-ul.a{
-  list-style-type: circle;
+ul{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 5vw;
+  list-style-image: url(RippleSmall.png);
+  margin: 0 5vw;
 }

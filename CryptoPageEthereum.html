@@ -11,14 +11,13 @@
     </title>
 </head>
 
-<body style="background:#1e2228; color: gainsboro;">
+<body style="background:#1e2228; color: gainsboro; margin: 0px; padding: 0px;">
 <div id="app">
     <img class="ethico" src = "Ethereum.png">
     <div class = "title">Ethereum</div>
     <div v-cloak v-for="coin in coins">
         <span v-if="coin.name == 'Ethereum'">
             <div class="DataTitle"><br> {{ coin.price_usd | currency }}</div>
-        <canvas id="Bitfinex"></canvas>
   </span>
 </div>
 </div>
