@@ -1,3 +1,4 @@
+
 .ripico{
   float: right;
   clear: both;
@@ -20,10 +21,6 @@
   max-width: 80vw !important;
   margin-left: 10vw;
   padding-right: 10vw;
-}
-
-div{
-  width: 100%;
 }
 .info{
   text-align: center;

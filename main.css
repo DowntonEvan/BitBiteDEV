@@ -16,9 +16,9 @@ body{
 .CryptoInfo{
     font-size: 30px;
     color: white;
-    position: fixed;
     width: 100%;
-    bottom: 5%;
+    text-align: center;
+    padding:3%;
 }
 
 .CryptoButton {
