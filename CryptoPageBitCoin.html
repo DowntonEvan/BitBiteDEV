@@ -16,7 +16,7 @@
     <div class="title">Bitcoin</div>
     <div v-cloak v-for="coin in coins">
       <span v-if="coin.name == 'Bitcoin'">
-        <div class="DataTitle"><br> {{ coin.price_usd | currency }}</div>
+        <div class="DataTitle"><br>{{ coin.price_usd | currency }}</div>
       </span>
     </div>
   </div>

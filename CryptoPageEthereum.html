@@ -11,13 +11,14 @@
     </title>
 </head>
 
-<body style="background:#1e2228; color: gainsboro; margin: 0px; padding: 0px;">
+<body style="width:100%;margin:0;padding:0;background:#1e2228; color: gainsboro;">
 <div id="app">
     <img class="ethico" src = "Ethereum.png">
     <div class = "title">Ethereum</div>
     <div v-cloak v-for="coin in coins">
         <span v-if="coin.name == 'Ethereum'">
             <div class="DataTitle"><br> {{ coin.price_usd | currency }}</div>
+
   </span>
 </div>
 </div>
