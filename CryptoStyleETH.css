@@ -1,3 +1,8 @@
+.back{
+    float: left;
+    width: 25vw;
+    margin-left: 5vw;
+}
 .ethico{
     float: right;
     clear: both;

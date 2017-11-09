@@ -1,4 +1,8 @@
-
+.back{
+  float: left;
+  width: 25vw;
+  margin-left: 5vw;
+}
 .ripico{
   float: right;
   clear: both;
