@@ -1,17 +1,31 @@
 body{
-    background-color: rgb(0, 136, 255);
+width: 100%;
+margin: 0 0;
 }
 div{
     font-family: 'Work Sans', sans-serif;
     color:white;
 }
 #top img{
-
+  padding: 1%;
     height: 300px;
     width: 800px;
     display:block;
-    margin:auto;
+    margin:0 auto;
 
+}
+#name{
+  padding: 10%;
+}
+#does{
+  padding: 10%;
+}
+#will{
+  padding: 10%;
+
+}
+#buy{
+  padding: 10%;
 }
 #name img{
 
