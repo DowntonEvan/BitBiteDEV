@@ -2,6 +2,8 @@
     float: left;
     width: 25vw;
     margin-left: 5vw;
+    clear:both;
+    padding-right: 8vw;
 }
 .bitico{
     float: right;
