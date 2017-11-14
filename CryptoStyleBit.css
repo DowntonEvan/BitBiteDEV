@@ -1,9 +1,18 @@
 .back{
-    float: left;
-    width: 25vw;
-    margin-left: 5vw;
-    clear:both;
-    padding-right: 8vw;
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 1vh;
+}
+.nu{
+    margin-top: 2vh;
+    width: 45vw;
+    margin-left: 3vw;
+}
+.ad{
+    float: right;
+    margin-top: 2vh;
+    width: 40vw;
+    margin-right: 3vw;
 }
 .bitico{
     float: right;

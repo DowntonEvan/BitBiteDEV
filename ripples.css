@@ -1,8 +1,17 @@
 .back{
-  float: left;
-  width: 25vw;
-  margin-left: 5vw;
-  padding-right: 8vw;
+  width: 30vw;
+  margin-left: 35vw;
+}
+.nu{
+  margin-top: 2vh;
+  width: 45vw;
+  margin-left: 3vw;
+}
+.ad{
+  float: right;
+  margin-top: 2vh;
+  width: 40vw;
+  margin-right: 3vw;
 }
 .ripico{
   float: right;
@@ -41,4 +50,8 @@ ul{
   font-size: 5vw;
   list-style-image: url(RippleSmall.png);
   margin: 0 5vw;
+}
+.toper{
+  background: gainsboro;
+  margin-bottom: 1vh;
 }
