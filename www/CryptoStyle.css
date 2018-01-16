@@ -1,0 +1,63 @@
+body{
+width: 100%;
+margin: 0 0;
+font-size:100%;
+color:white;
+}
+div{
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+}
+#top img{
+  padding: 1%;
+    height: 300px;
+    width: 800px;
+    display:block;
+    margin:0 auto;
+
+}
+li{
+    padding: 2%;
+}
+#name{
+ 
+}
+#does{
+  padding: 10%;
+}
+#will{
+  padding: 10%;
+
+}
+#buy{
+  padding: 10%;
+}
+#name img{
+
+    float: left;
+    height: 50px;
+    width: 50px;
+
+}
+#does img{
+
+    float: left;
+    height: 50px;
+    width: 50px;
+
+}
+#will img{
+
+    float: left;
+    height: 50px;
+    width: 50px;
+
+}
+
+#buy img{
+
+    float: left;
+    height: 50px;
+    width: 50px;
+
+}

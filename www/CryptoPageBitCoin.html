@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<htmL>
+
+<head>
+    <link href="CryptoStyleBit.css" rel="stylesheet" type="text/css">
+    <script src="scripts.js"></script>
+        <script src="jquery.js"/></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
+      <link rel="stylesheet" href="bootstrap.css" >  <title>
+
+        BitBite
+    </title>
+
+</head>
+
+<body style="background: #f4f4f4; color: #db8e00;" onload="getBitcoinPrice()">
+<!--<div>
+    <img class="nu" src="NULOGO.png">
+    <img class="ad" src="SmallAd.png">
+    <a href="index.html"><img src="Bitarrow.png" class="back"></a>
+</div>
+-->
+  <div id="app">
+      <a href="index.html" style="width:100%;;float:left;margin:0;"><img src="Bitarrow.png" style="float:left;width:10%;margin:0;" class="back"></a>
+
+    <div style="width:100%;margin-left: auto;
+    margin-right: auto;"><img class="bitico" style="margin-left: auto; display: block;
+    margin-right: auto;width:30%;margin:0 auto;text-align:center;"src = "BitCoin.png"></div>
+    <div class="title" style="text-align:center;">Bitcoin</div>
+
+
+    <div v-cloak v-for="coin in coins">
+
+      <span v-if="coin.name == 'Bitcoin'">
+        <div class="DataTitle Price"></div>
+      </span>
+    </div>
+  </div>
+
+  <p class="info">Bitcoin is the first decentralized digital currency also referred to as virtual or crypto-currency, it&rsquo;s used to purchase a variety of goods and services. The decentralized creation uses the ideas created in 2009 that were recorded on the white paper by Satoshi Nakamoto whose true identity is still unknown. Bitcoin with its payment network, supplies individuals with the opportunity to have direct peer to peer transactions, powered by its users with no central authority.</p>
+  <div class="DataTitle">Pros And Cons</div>
+  <p class="info">Pros</p>
+  <ul>
+      <li>The currency of bitcoin is transferable from one person to another through the source of internet without banks being involved</li>
+      <li>The transaction fees are much lower as of now since bitcoin&rsquo;s network is faster compared to previous years, currency can be used throughout the world</li>
+      <li>Completely open source in which any individual has the capability to review the code, it also uses blockchain technology</li>
+  </ul>
+  <p class="info">Cons</p>
+  <ul>
+      <li>As Bitcoin is still growing in popularity it&rsquo;s not yet accepted by all online merchants, making it an inefficient currency to only depend on </li>
+      <li>If a virus corrupts the data or the hard drive crashes, data will then be lost in the wallet file, Bitcoin will just become lost</li>
+      <li>The idea of Bitcoin&rsquo;s value always fluctuating because of its demand, you never know when its value can just fall leading to your money being worthless</li>
+  </ul>
+
+
+  <div class="DataTitle">
+      Analysis
+  </div>
+  <p class="info">With any way of getting to the internet, bitcoins which are held in a digital wallet, can be used to invest, exchange, and purchase goods as a source of currency. No personal information is needed when completing transactions, authorization is with a digital signature. The need for a third party to manage the payments is eliminated due to how Bitcoin is ran. Users part of Bitcoin authorize and prove the validity of transaction, they&rsquo;re known as miners. Transactions are verified within minutes by a network of miners who create blocks to insert the transactions. Once the miner solves the puzzle, a proof of work is required, to be then validated before recording it into the public ledger. Lastly other miners will review the transaction and verify it when checked over correctly. The process is then restarted in the same pattern.</p>
+
+</body>
+
+</html>

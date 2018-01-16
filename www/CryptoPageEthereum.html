@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<htmL>
+
+<head>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="CryptoStyleETH.css">
+    <script src="jquery.js"/></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css" >
+
+      <title>
+        BitBite
+    </title>
+</head>
+
+<body style="width:100%;margin:0;padding:0;background:#1e2228; color: gainsboro;" onload="getEtherumPrice()">
+  <!--<div>
+      <img class="nu" src="NULOGO.png">
+      <img class="ad" src="SmallAd.png">
+
+  </div>
+  -->
+<div id="app">
+    <a href="index.html" style="width:100%;;float:left;margin:0;"><img src="Bitarrow.png" style="float:left;width:10%;margin:0;" class="back"></a>
+    <div style="width:100%;margin-left: auto;
+    margin-right: auto;"><img class="ethico"  style="margin-left: auto; display: block;
+    margin-right: auto;width:30%;margin:0 auto;text-align:center;"  src = "Ethereum.png"></div>
+    <div class = "title" style="text-align:center">Ethereum</div>
+
+
+    <div v-cloak v-for="coin in coins">
+        <span v-if="coin.name == 'Ethereum'">
+            <div class="Price DataTitle"></div>
+
+  </span>
+</div>
+</div>
+<div class="DataTitle">
+    Summary
+</div>
+<p class="info">Ethereum is a type of online currency similar to how bitcoin works. Ethereum is the second largest cryptocurrency in the world. Ethereum transactions are mostly stored on the blockchain, which can monitor their balance. </p>
+<div class="DataTitle">
+    Pros And Cons
+</div>
+<p class="info">Pros</p>
+<ul>
+    <li>Ethereum provides secure security within the cryptocurrency. </li>
+    <li>Ethereum is easy to use and create.</li>
+    <li>Ethereum saves money and time.</li>
+</ul>
+<p class="info">Cons</p>
+<ul>
+    <li>Blockchain controls Ethereum</li>
+    <li>Ethereum has competitors such as EOS and WAVES</li>
+    <li>You can&rsquo;t improve the service of the blockchain that controls Ethereum.</li>
+</ul>
+
+
+<div class="DataTitle">
+    Analysis
+</div>
+<p class="info">Ethereum system is similar to bitcoin. Ethereum can be used to build financial applications that are trustworthy because they are runned on the block chain. Online cryptocurrency is used to secure and manage property, contracts and social networking systems. Ethereum allows us to control our own data. </p>
+
+
+</body>
+
+</html>

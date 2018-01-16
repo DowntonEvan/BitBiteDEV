@@ -1,0 +1,57 @@
+.back{
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 1vh;
+}
+.nu{
+    margin-top: 2vh;
+    width: 45vw;
+    margin-left: 3vw;
+}
+.ad{
+    float: right;
+    margin-top: 2vh;
+    width: 40vw;
+    margin-right: 3vw;
+}
+.bitico{
+    
+    clear: both;
+    width: 20vw;
+  
+}
+.title{
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: 300;
+    font-size: 12vw;
+  
+}
+.DataTitle{
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: 300;
+    font-size: 9vw;
+    text-align: center;
+}
+.Data{
+    max-width: 80vw !important;
+    margin-left: 10vw;
+}
+
+div{
+    width: 100%;
+}
+.info{
+    text-align: center;
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: 400;
+    font-size: 5vw;
+    margin: 0 10vw;
+    padding-bottom: 6vh;
+}
+ul{
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: 400;
+    font-size: 5vw;
+    list-style-image: url(BitcoinSmall.png);
+    margin: 0 5vw;
+}

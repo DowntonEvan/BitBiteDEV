@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="ripples.css">
+      <script src="jquery.js"/></script>
+      <script src="scripts.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css" ><title>
+    BitBite
+  </title>
+</head>
+
+<body style="background:#246de2; color: gainsboro;" onload="getRipplePrice()">
+<!---
+<div class="toper" style="padding:1%;">
+    <img class="nu" src="NULOGO.png">
+    <img class="ad" src="SmallAd.png">
+</div>
+-->
+
+<div id="app">
+  <a href="index.html" style="width:100%;;float:left;margin:0;" ><img  style="float:left;width:10%;margin:0;"src="Ripplearrow.png" class="back"></a>
+
+  <div style="width:100%;margin-left: auto;
+    margin-right: auto;"><img class="ripico"  style="margin-left: auto; display: block;
+    margin-right: auto;width:30%;margin:0 auto;text-align:center;"  src ="Ripple.png"></div>
+  <div class ="title" style="text-align:center">Ripple</div>
+
+
+
+  <div v-cloak v-for="coin in coins">
+        <span v-if="coin.name == 'Ripple'">
+            <div class=" Price DataTitle"></div>
+  </span>
+  </div>
+</div>
+<div class="DataTitle">
+  Summary
+</div>
+<p class="info">Ripple is the 3rd largest cryptocurrency in the world. It is a real-time gross settlement system, currency exchange network by Ripple. Also called the Ripple Transaction Protocol, it is built upon a distributed open source Internet protocol, consensus ledger and native cryptocurrency called XRP.</p>
+<div class="DataTitle">
+  Pros And Cons
+</div>
+<p class="info">Pros</p>
+<ul>
+  <li>A medium for converting any currency instantly into any other one, without relying on a central exchange.</li>
+  <li>Processes transactions quickly (~3.5 seconds)</li>
+  <li>Total Supply of 100 Billion.</li>
+</ul>
+<p class="info">Cons</p>
+<ul>
+  <li>There are no retailers who directly accept XRP</li>
+  <li>Centralized (available for use by banks)</li>
+  <li>You can&rsquo;t improve the service of the blockchain that controls Ethereum.</li>
+</ul>
+
+
+<div class="DataTitle">
+  Analysis
+</div>
+<p class="info">You can purchase Ripple on multiple cryptocurrency exchange websites. Many banks use Ripple to exchange currencies, including JPMorgan, Santander, and BBVA. Ripple is projected to skyrocket within the next few years. Ripple is the only one that offers services to banks all around the world. Banks realize the increasing popularity of cryptocurrencies and huge companies have joined with Ripple.</p>
+
+</body></htmL>
