@@ -1,86 +1,41 @@
-body{
-    font-family: 'Work Sans', 'sans-serif';
-    font-weight: 400;
-    font-size: 24px;
-    background: #3A3A3A;
-}
-
-.MainTitle{
-    font-weight: 300;
-    font-size: 56px;
-    color: #f3f8f4;
-    text-align: center;
-    margin-top: 3%;
+/*tag css*/
+body {
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(top, rgba(46,219,242,1) 0%,rgba(41,170,224,1) 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f0f0f0;
     text-align: center;
 }
-.CryptoInfo{
-    font-size: 30px;
-    color: white;
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: auto;
     width: 100%;
-    text-align: center;
-    padding:3%;
 }
 
-.CryptoButton {
-    background-color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    border-radius: 0.2em;
-    color: #0088FF;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    margin: 2px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-align: center;
-}
-.CryptoButton:hover{
-    background-color: #0088FF;
-    color: white;
+/*class CSS*/
+.mainText{
+    margin-top: 30%;
+    font-size: 300%;
+    font-weight: 200;
 }
 
-.bitcoinimg{
-    max-width: 22vh;
-    float:left;
-}
-.pricetxtbit{
-    font-size: 5vmin;
-    margin-top: 4vh;
-    margin-left: 10vw;
-    color: white;
+.cryptoButton{
+    width: 50%;
+    margin: 10% 0 0 25%;
 }
 
-.img-responsive {
-    margin: 0 auto !important;
-}
-.ethimg{
-    clear: both;
-    float: right;
-    max-width: 22vh;
-}
-a{
-  text-decoration: none;
-}
-.pricetxteth{
-    font-size: 5vmin;
-    margin-bottom: 4vh;
-    color: white;
-    width: 75%;
-}
-.ripimg{
-    clear: both;
-    float: left;
-    max-width: 22vh;
-}
-.pricetxtrip{
-    font-size: 5vmin;
-    margin-bottom: 10vh;
-    color: white;
+.buttonImg{
+    width: 100%;
 }
 
-.bullets{
-    font-size: 4vmin;
+.buttonText{
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 120%;
+}
+.contactUs{
+    font-weight: 300;
+    font-size: 150%;
 }
