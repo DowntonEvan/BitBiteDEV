@@ -1,0 +1,33 @@
+/*Tag CSS*/
+body {
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(top, rgba(82,230,249,1) 0%,rgba(29,142,198,1) 100%);
+    font-family: 'Work Sans', sans-serif;
+    color: #f0f0f0;
+}
+
+/*Class CSS*/
+.cryptoSection{
+    padding: 6% 0 6% 0;
+    background-color: rgba(50,50,50,.6);
+    border-bottom:  3px solid rgb(30,70,100);
+}
+.sectionImg{
+    width: 35%;
+    margin: 0 0 0 5%;
+}
+.cryptoTitle{
+    position: absolute;
+
+    font-size: 270%;
+    font-weight: 300;
+    color: #f0f0f0;
+    padding: 0 0 0 45%;
+    margin: -28% 0 0 0;
+}
+.priceText{
+    color: #f0f0f0;
+    font-size: 60%;
+    padding: 0 0 0 0;
+}
