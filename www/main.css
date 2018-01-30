@@ -1,43 +1,73 @@
-/*tag css*/
-body {
+body{
     margin: 0;
     padding: 0;
-    background: -webkit-linear-gradient(top, rgba(46,219,242,1) 0%,rgba(41,170,224,1) 100%);
-    font-family: 'Work Sans', sans-serif;
-    color: #f0f0f0;
+    font-family: "Work Sans", sans-serif;
     text-align: center;
-}
-footer{
-    position: fixed;
-    bottom: 0;
-    margin: auto;
-    width: 100%;
+    font-weight: 500;
 }
 
-/*class CSS*/
-.mainText{
-    margin-top: 30%;
+.globalTitle{
+    font-weight: 200;
+    font-size: 260%;
+    margin: 0 0 0 0;
+    padding-top: 8%;
+}
+.globalContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.globalIcon{
+    width: 60%;
+    margin: 2% 0 0 0;
+    padding: 7% 0 10% 0;
+}
+.globalName{
+    margin: 16% 0 0 0;
     font-size: 300%;
     font-weight: 200;
 }
-
-.cryptoButton{
-    width: 50%;
-    margin: 10% 0 0 25%;
+.globalArrowLeft{
+    position: absolute;
+    transform: ScaleX(-1);
+    width: 5%;
+    margin: 17% 0 0 -69%;
+}
+.globalArrowRight{
+    position: absolute;
+    width: 5%;
+    margin: 17% 0 0 17%;
+}
+.globalDescription{
+    padding: 0 7% 0 7%;
+    margin-bottom: 100%;
 }
 
-.buttonImg{
-    width: 100%;
+.bitBody{
+    color: #db8e00;
+    background-color: #e3e3e3;
 }
-
-.buttonText{
-    padding-top: 5%;
-    font-weight: 500;
-    font-size: 120%;
-}
-.contactUs{
+.bitPrice{
+    font-size: 180%;
     font-weight: 300;
-    font-size: 150%;
-    color: #ffffff;
+}
+.ethBody{
+    color: gainsboro;
+    background-color: #2d323a;
+}
+.ethPrice{
+    font-size: 180%;
+    font-weight: 300;
+}
+.ripBody{
+    background-color: #4b83dd;
+    color: #4b99dd;
+}
+.ripPrice{
+    font-size: 180%;
+    font-weight: 300;
+}
+.CryptoDesc{
+    color: #4b99dd;
     text-decoration: none;
 }
