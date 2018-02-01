@@ -44,24 +44,24 @@ body{
 }
 
 .bitBody{
-    color: #db8e00;
-    background-color: #e3e3e3;
+    color: #f0f0f0;
+    background-color: #f7941e;
 }
 .bitPrice{
     font-size: 180%;
     font-weight: 300;
 }
 .ethBody{
-    color: gainsboro;
-    background-color: #2d323a;
+    color: #f0f0f0;
+    background-color: #454545;
 }
 .ethPrice{
     font-size: 180%;
     font-weight: 300;
 }
 .ripBody{
-    background-color: #4b83dd;
-    color: #4b99dd;
+    background-color: #198fe1;
+    color: #f0f0f0;
 }
 .ripPrice{
     font-size: 180%;
