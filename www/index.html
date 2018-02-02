@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <title>Cryptionary</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500" rel="stylesheet">
+</head>
+
+<body>
+<div class="bitBody mySlides">
+    <h1 class="globalTitle">Cryptionary</h1>
+    <div class="globalContainer">
+        <h1 class="globalName">Bitcoin</h1>
+        <a href="CryptoPageBitCoin.html"><img class="globalIcon" src="BitCoin.png"></a>
+        <img class="globalArrowRight" src="sideArrow.png" onclick="plusDivs(1)">
+        <p class="bitPrice">Can Not Find Price!</p>
+        <p class="globalDescription">Bitcoin was the worlds first cryptocurrency, now it is the worlds most popular and expensive cryptocurrency.</p>
+    </div>
+</div>
+<div class="ethBody mySlides">
+    <h1 class="globalTitle">Cryptionary</h1>
+    <div class="globalContainer">
+        <h1 class="globalName">Ethereum</h1>
+        <a href="CryptoPageEthereum.html"><img class="globalIcon" src="Ethereum.png"></a>
+        <img class="globalArrowLeft" src="sideArrow.png" onclick="plusDivs(-1)">
+        <img class="globalArrowRight" src="sideArrow.png" onclick="plusDivs(1)">
+        <p class="ethPrice">Can Not Find Price!</p>
+        <p class="globalDescription">Ethereum is the second largest cryptocurrency and helped to bring cryptocurrency into the eyes of the public.</p>
+    </div>
+</div>
+<div class="ripBody mySlides">
+    <h1 class="globalTitle">Cryptionary</h1>
+    <div class="globalContainer">
+        <h1 class="globalName">Ripple</h1>
+        <a href="ripple.html"><img class="globalIcon" src="Ripple.png"></a>
+        <img class="globalArrowLeft" src="sideArrow.png" onclick="plusDivs(-1)">
+        <img class="globalArrowRight" src="sideArrow.png" onclick="plusDivs(1)">
+        <p class="ripPrice">Can Not Find Price!</p>
+        <p class="globalDescription">Ripple is very approachable to all who are looking to invest and supports one of the fastest transaction times of any cryptocurrency.</p>
+    </div>
+</div>
+<div class="ripBody mySlides">
+    <h1 class="globalTitle">Cryptionary</h1>
+    <div class="globalContainer">
+        <h1 class="globalName" style="font-size: 200%;">What is Cryptocurrency?</h1>
+        <a href="CryptoPageGeneral.html"><img class="globalIcon" src="QuestionMark.png"></a>
+        <img class="globalArrowLeft" src="sideArrow.png" onclick="plusDivs(-1)">
+        <a href="ContactUs.html" class="CryptoDesc"><p style="margin-top: 20%; margin-bottom: 100%; color: #f0f0f0;">Cryptionary was developed by Nüapps to educate the public and potential investors you may contact us by taping on this passage.</p></a>
+    </div>
+</div>
+
+<!--<button class="globalArrowLeft" onclick="plusDivs(-1)">&#10094;><img src="sideArrow.png"></button>
+<button class="globalArrowRight" onclick="plusDivs(1)">&#10095;><img src="sideArrow.png"></button>-->
+
+<script>
+    document.addEventListener('touchstart', handleTouchStart, false);
+    document.addEventListener('touchmove', handleTouchMove, false);
+
+    var xDown = null;
+    var yDown = null;
+
+    function handleTouchStart(evt) {
+        "use strict";
+        xDown = evt.touches[0].clientX;
+        yDown = evt.touches[0].clientY;
+    }
+
+    function handleTouchMove(evt) {
+        "use strict";
+        if ( ! xDown || ! yDown ) {
+            return;
+        }
+
+        var xUp = evt.touches[0].clientX;
+        var yUp = evt.touches[0].clientY;
+
+        var xDiff = xDown - xUp;
+        var yDiff = yDown - yUp;
+
+        if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+            if ( xDiff > 0 ) {
+                plusDivs(1);
+            }
+            else {
+                plusDivs(-1);
+            }
+        } else {
+            if ( yDiff > 0 ) {
+                plusDivs(0);
+            }
+            else {
+                plusDivs(0);
+            }
+        }
+        /* reset values */
+        xDown = null;
+        yDown = null;
+    }
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        "use strict";
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        "use strict";
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length){
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1e2228;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.globalTitle{
+    font-weight: 200;
+    font-size: 260%;
+    margin-top: 8%;
+}
+.globalContainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.globalIcon{
+    width: 60%;
+    margin: 2% 0 0 0;
+    padding: 7% 0 10% 0;
+}
+.globalName{
+    margin: 16% 0 0 0;
+    font-size: 300%;
+    font-weight: 200;
+}
+.globalArrowLeft{
+    position: absolute;
+    transform: ScaleX(-1);
+    width: 5%;
+    margin: 17% 0 0 -69%;
+}
+.globalArrowRight{
+    position: absolute;
+    width: 5%;
+    margin: 17% 0 0 17%;
+}
+.globalDescription{
+    padding: 0 7% 0 7%;
+}
