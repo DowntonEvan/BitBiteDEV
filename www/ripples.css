@@ -1,7 +1,66 @@
+<<<<<<< HEAD
 .globalIcon{
   width:100%;
 
 }
 .back{
   position:absolute;
+=======
+.back{
+  width: 30vw;
+  margin-left: 35vw;
+}
+.nu{
+  margin-top: 2vh;
+  width: 45vw;
+  margin-left: 3vw;
+}
+.ad{
+  float: right;
+  margin-top: 2vh;
+  width: 40vw;
+  margin-right: 3vw;
+}
+.ripico{
+
+
+  width: 20vw;
+
+}
+.title{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 12vw;
+
+}
+.DataTitle{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 9vw;
+  text-align: center;
+}
+.Data{
+  max-width: 80vw !important;
+  margin-left: 10vw;
+  padding-right: 10vw;
+}
+.info{
+  text-align: center;
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 5vw;
+  margin: 0 10vw;
+  padding-bottom: 6vh;
+}
+ul{
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 5vw;
+  list-style-image: url(RippleSmall.png);
+  margin: 0 5vw;
+}
+.toper{
+  background: gainsboro;
+  margin-bottom: 1vh;
+>>>>>>> 9d42b6aa3e82d9049ef882ad050acb4e82012f7d
 }
